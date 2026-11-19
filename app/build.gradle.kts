@@ -98,6 +98,8 @@ dependencies {
     // MPEG-DASH (.mpd) streams; without it Media3 throws IllegalStateException when such a stream is opened
     implementation("androidx.media3:media3-exoplayer-dash:1.11.1")
     implementation("androidx.media3:media3-ui:1.11.1")
+    // PROTOTYPE MediaProbe.kt: MetadataRetriever reads the real tracks of a stream (resolution, HDR/DV, audio)
+    implementation("androidx.media3:media3-inspector:1.11.1")
     // Software audio decoder (AC3/E-AC3/DTS ...) for headphones/Bluetooth, see SoftAudio.kt. GPL-3.0 – the reason the app is GPL-3.0.
     implementation("org.jellyfin.media3:media3-ffmpeg-decoder:1.9.0+1")
 
